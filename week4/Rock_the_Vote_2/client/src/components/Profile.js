@@ -10,7 +10,7 @@ export default function Profile(){
       username 
     }, 
     addIssue, 
-    Issues
+    issues
   } = useContext(UserContext)
 
   return (
@@ -19,7 +19,7 @@ export default function Profile(){
       <h3>Add A Issue</h3>
       <IssueForm addIssue={addIssue}/>
       <h3>Your Issues</h3>
-      <IssueList Issues={Issues}/>
+      <IssueList issues = {issues}/>
     </div>
   )
 }
