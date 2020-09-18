@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  margin-top: 50px;
 }
 
 /* .app {
@@ -46,11 +46,16 @@ body {
 .auth-container > h1 {
   font-size: 2em;
   margin: 24px;
+  color: blue;
 }
 
 .auth-container > p {
   margin: 16px;
   text-decoration: underline;
+  font-weight: 600;
+  font-size: 20px;
+  color: blue;
+  background-color: white;
 }
 
 .auth-container > form {
@@ -98,11 +103,13 @@ top: 0px;
   margin: 8px;
   font-size: 2em;
   text-align: center;
+  color: blue;
 }
 
 .profile > h3 {
   margin: 16px 0;
   text-decoration: underline;
+  color: blue;
 }
 
 .profile > form {
