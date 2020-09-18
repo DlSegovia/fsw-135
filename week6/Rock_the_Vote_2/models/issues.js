@@ -6,16 +6,13 @@ const issuesSchema = new Schema({
     type: String,
     required: true
   },
-  description: {
-    type: String
-  },
-  completed: {
-    type: Boolean,
-    default: false
+  typeOFIssue: {
+    type: String,
+    required: true
   },
   imgUrl: {
     type: String,
-    required: true
+    required: false
   },
   user: {
     type: Schema.Types.ObjectId,
